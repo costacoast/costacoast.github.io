@@ -1,0 +1,172 @@
+@font-face {
+    font-family: aroly;
+    src: url(/fonts/AROLY.ttf);
+}
+
+
+body{
+	padding: 2em;
+	background-color: #333333;
+	background-image: url("/img/lines.png");
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1em;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+	line-height: 1.4;
+}
+
+h1{
+	font-family: aroly;
+	font-size: 3.5em;
+	color: #D59F03;
+}
+
+h4{
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.5em;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+	line-height: 1.4;
+}
+
+.text{
+	padding:.25em;
+}
+
+.about{
+	background-color:#000;
+	color:white;
+}
+
+
+#about-image{
+	background-color:#F2F2F2;
+}
+
+#portfolio{
+	background-color: #666;
+}
+.container{
+  padding: 2%;
+  text-align: justify;
+  font-size: 0.1px;
+  
+  -webkit-backface-visibility: hidden;
+}
+
+.button{
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1em;
+	text-transform: none;
+	text-decoration: none;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+	line-height: 1;
+	background-color: #23A596;
+	transition: background-color 300ms ease-out; }
+  	.button:hover, .button:focus {
+    background-color: #29ECD6; }
+  	.button:hover, .button:focus {
+    color: #FFFFFF; }
+
+.container:after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.container .mix,
+.container .gap{
+  display: inline-block;
+  width: 49%;
+}
+
+.container .mix{
+  text-align: center;
+  margin-bottom: 2%;
+  display: none;
+}
+
+.container .mix:after{
+  display: inline-block;
+  vertical-align: top;
+  padding: 4%;
+  font-weight: 700;
+}
+
+.container .mix:before{
+  content: '';
+  display: inline-block;
+}
+
+.clearing-thumbs li{  
+  margin: 0em .25em;  
+  padding: 0em .15em;
+}
+
+#contact, #social, #footer{
+	background-color:rgba(0, 0, 0, 0.15);
+	color:#fff;
+
+}
+
+.social, .contact ul{
+	text-decoration: none;
+	list-style-type: none;
+	margin-left:0em;
+	padding-left:0em;
+}
+
+#contact ul{
+	margin-left:.25em;
+}
+
+#contact a{
+	display:block;
+	color:#666;
+	font-size: 115%;
+	line-height: 175%;
+	transition: color 300ms ease-out;}
+	#contact a:hover, #contact a:focus {
+    color: #E9055C; }
+
+#contact span{
+	color:#D59F03;
+}
+
+
+.social li{
+	float:left;
+
+}
+
+.social a{
+	display:block;
+	width:1.5em;
+	color:#666;
+	font-size: 300%;
+	transition: color 300ms ease-out;}
+  	.social a:hover, .social a:focus {
+    color: #E9055C; }
+
+
+
+#footer{
+	text-align: center;
+	font-style:italic;
+}
+
+#portfolio-filters{
+	text-align: center;
+}
