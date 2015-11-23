@@ -24,14 +24,14 @@ h1{
 	font-size: 3.5em;
 	color: #D59F03;
 }
-@media(max-width: 1580px) {
-  h1 {
-    font-size: 3.5em;
-  }
-}
 @media(max-width: 980px) {
   h1 {
-    font-size: 1.5em;
+    font-size: 2.5em;
+  }
+}
+@media(max-width: 600px) {
+  h1 {
+    font-size: 2em;
   }
 }
 
