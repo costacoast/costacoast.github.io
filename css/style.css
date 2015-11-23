@@ -83,6 +83,7 @@ h4{
 	letter-spacing: 0em;
 	word-spacing: 0em;
 	line-height: 1;
+	padding: 1rem 1.2rem 1.0625rem 1.2rem;
 	background-color: #23A596;
 	transition: background-color 300ms ease-out; }
   	.button:hover, .button:focus {
