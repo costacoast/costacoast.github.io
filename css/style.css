@@ -585,6 +585,16 @@ header{
     line-height: 30px;
 }
 
+.portfolio-single .credits p{
+    font-size: 12px;
+    line-height: 18px;
+    font-style: italic;
+    text-align: center;
+    background-color: #3b424661;
+    padding: 3px 5px;
+}
+
+
 .portfolio-lightbox figure img{
     width: 100%;
     border-radius: 10px;
